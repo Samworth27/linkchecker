@@ -11,4 +11,5 @@ class URLConsolidate(_ConnectionPlugin):
         return True
 
     def check(self, url_data):
+        url_data.warning(str(url_data))
         log.error(LOG_PLUGIN, str(url_data))
