@@ -8,4 +8,4 @@ class URLConsolidate(_ParserPlugin):
         log.warn(LOG_PLUGIN, _("CONSOLIDATE PLUGIN ACTIVE"))
 
     def check(self, url_data):
-        log.warn(LOG_PLUGIN, _(str(url_data)))
+        log.error(LOG_PLUGIN, "URL CONS")
