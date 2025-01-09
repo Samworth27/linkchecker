@@ -7,5 +7,8 @@ class URLConsolidate(_ParserPlugin):
         super().__init__(config)
         log.warn(LOG_PLUGIN, _("CONSOLIDATE PLUGIN ACTIVE"))
 
+    def applies_to(self, url_data):
+        return True
+
     def check(self, url_data):
         log.error(LOG_PLUGIN, "URL CONS")
