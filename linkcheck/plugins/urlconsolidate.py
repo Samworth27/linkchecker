@@ -11,4 +11,5 @@ class URLConsolidate(_ParserPlugin):
         return True
 
     def check(self, url_data):
+        exit()
         log.error(LOG_PLUGIN, "URL CONS")
